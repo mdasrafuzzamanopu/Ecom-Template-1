@@ -4,7 +4,7 @@ import './style/globle.css'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App ">
       <Nav/>
     </div>
   );

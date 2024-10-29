@@ -1,25 +1,117 @@
 .navbar {
-    background-color: #fff; 
+  background-color: #fff;
+}
+
+.nav-links {
+  li a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+
+    &:hover {
+      color: #FF5722;
+    }
   }
-  
-  .nav-links {
-    li a {
-      font-size: 1rem;
-      font-weight: 500;
-      color: #333;
+}
+
+.social-icons {
+  a {
+    font-size: 1.25rem;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: #FF5722;
+    }
+  }
+}
+
+.subscribe-item {
+  margin: 50px;
+  background-color: #E7F9FD;
+  padding: 20px;
+  border: 0px #E7F9FD;
+  border-radius: 50px;
+  height: 442px;
+
+
+  .subscribe-item-one {
+    margin-top: 35px;
+  }
+
+
+  .subscribe-text {
+    h1 {
+      font-size: 48px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    p {
+      margin-top: 20px;
+      color: rgb(0, 0, 0, 0.6);
+    }
+  }
+
+  .subscription-container {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .subscription-form {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    .subscription-input {
+      padding: 10px 15px;
+      border: none;
+      border-radius: 10px 0 0 10px;
+      outline: none;
+      font-size: 1.2em;
+      color: #777;
+      flex: 1;
+
+      &::placeholder {
+        color: #bbb;
+      }
+    }
+
+    .subscription-button {
+      padding: 18px 15px;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      border-radius: 0 10px 10px 0;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s;
+
       &:hover {
-        color: #FF5722; 
+        background-color: #333;
       }
     }
   }
-  
-  .social-icons {
-    a {
-      font-size: 1.25rem;
-      transition: color 0.3s ease;
-      &:hover {
-        color: #FF5722; 
-      }
+
+  .section-left-img,
+    .section-right-img {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 150px;
+        height: auto;
+
+        &.section-left-img {
+            left: -80px; 
+        }
+
+        &.section-right-img {
+            right: -80px;
+        }
     }
-  }
-  
+}

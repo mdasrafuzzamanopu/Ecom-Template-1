@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { setTitle } from '../utils/utils';
+import SubscribeSection from '../components/SubscribeSection';
 
 function Home() {
   useEffect(() => {
@@ -9,6 +10,8 @@ function Home() {
   return (
     <div>
       <h1>Welcome to Foodieland!</h1>
+
+      <SubscribeSection/>
     </div>
   );
 }

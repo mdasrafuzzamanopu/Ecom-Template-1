@@ -7,6 +7,7 @@ import Contact from '../pages/contact';
 import AboutUs from '../pages/about';
 import NotFound from '../pages/404-notfound';
 
+
 function Nav() {
     return (
       <Router>
@@ -20,7 +21,6 @@ function Nav() {
               height={30} 
               className="logo-image mr-2" 
             />
-            <span className="brand text-2xl font-semibold">Foodieland.</span>
           </div>
           
           {/* Navigation Links */}

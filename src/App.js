@@ -1,5 +1,6 @@
 import './App.css';
 import Nav from './components/Nav';
+import './style/globle.css'
 
 function App() {
   return (

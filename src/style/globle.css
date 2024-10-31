@@ -5,12 +5,17 @@
 @import '@fortawesome/fontawesome-free/css/all.min.css';
 @import './style.scss';
 
-body{
+body {
+    position: relative;
+    height: 100%;
     margin: 5px 10%;
     margin-bottom: 8%;
+    background-color: white;
 }
 
-.logo-image{
+
+
+.logo-image {
     height: auto;
     max-width: 100%;
     min-width: 150px;

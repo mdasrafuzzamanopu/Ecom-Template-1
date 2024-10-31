@@ -8,7 +8,7 @@ function Home() {
   }, []);
 
   return (
-    <div>
+    <div className=''>
       <h1>Welcome to Foodieland!</h1>
 
       <SubscribeSection/>
